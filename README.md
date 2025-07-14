@@ -1,19 +1,31 @@
-# CODSOFT - Web Development Internship
+# CODSOFT - Web Development Internship 🚀
 
 This repository contains all the tasks I complete as part of the **Web Development Virtual Internship** at **CodSoft**.
 
-🗓️ Duration: July 5 – August 5, 2025  
-🧑‍💻 Intern: Aparna Babu  
-🏷️ Tasks: Web design, HTML/CSS/JS projects, and more
+🗓️ **Duration:** July 5 – August 5, 2025  
+👩‍💻 **Intern:** Aparna Babu  
+📁 **Domain:** Web Development
 
 ---
 
-## 📁 Tasks
+## 📌 Tasks
 
-| Task No. | Project Title        | Description                   | Link to Code/Folder |
-|----------|----------------------|-------------------------------|---------------------|
-| 1        | Portfolio Website     | Personal portfolio using HTML, CSS | [Link]            |
-| 2        | Calculator App        | Simple calculator using JS        | [Link]            |
+| Task No. | Project Title     | Description                             | Link to Code |
+|----------|-------------------|-----------------------------------------|--------------|
+| 1        | Landing Page      | A responsive landing page with HTML & CSS | [Task 1](https://github.com/aparnababu23/CODSOFT/tree/main/Task1_LandingPage) |
 
-(More tasks will be added as completed.)
+_(More tasks will be added as completed.)_
+
+---
+
+## 🛠️ Tools & Technologies
+- HTML5
+- CSS3
+- Git & GitHub
+
+---
+
+## 📫 Connect with Me
+- [LinkedIn](https://www.linkedin.com/in/aparna-babu-2192a828a)
+
 
