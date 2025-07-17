@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Calc</title>
+</head>
+<body>
+<main>
+<div id="out"></div>
+<input type="text" placeholder="0.00" class="box" />
+<div class="grid">
+<button>+</button>
+<button>-</button>
+<button>&#x2715;</button>
+<button>&div;</button>
+<button>=</button>
+</div>
+</main>
+<script>
+ const ADD = '+',
+ SUB = '-',
+ DIV = '÷',
+ MUL = '✕',
+ EQL = '=';
+ const out = document.getElementById('out'),
+inp = document.querySelector('input');
+ let acc = 0, op = '';
+document.querySelectorAll('button').forEach(el => {
+el.onclick = () => {
+ switch (el.textContent) {
+ case EQL: calc(); return;
+ default: op = el.textContent;
+ }
+ acc = +inp.value;
+out.textContent = acc + ' ' + op;
+inp.value = '';
+ };
+ })
+ function calc() {
+ const i = +inp.value;
+ switch (op) {
+ case ADD: acc += i; break;
+ case SUB: acc -= i; break;
+ case MUL: acc *= i; break;
+ case DIV: acc /= i; break;
+ }
+out.textContent += ' ' + i + ' =';
+inp.value = acc;
+ }
+</script>
+<style>
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ position: relative;
+ font-family: system-ui;
+ }
+ html, body {
+ height: 100dvh;
+ background: black;
+ }
+ body {
+ display: flex;
+ justify-content: center; 
+ align-items: center;
+ }
+ main {
+ width: 20rem;
+ /* height: 30rem; */ 
+ background: #121212;
+ border-radius: 1rem;
+ box-shadow: .2rem .2rem .5rem mistyrose;
+ }
+ input, button {
+ appearance: none;
+ border: none;
+ outline: none;
+ }
+ #out, .box {
+ color: mistyrose;
+ margin: 1rem;
+ }
+ .box {
+ width: calc(100% - 2rem);
+ margin: 1rem;
+ padding: 1rem;
+ font-size: 1.5rem;
+ border-radius: .5rem;
+ background: #000;
+ color: mistyrose;
+ }
+ .grid {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ padding: 1rem;
+ gap: 1rem;
+ }
+ .grid button {
+ background: black;
+ color: mistyrose;
+ box-shadow: 0 0 .25rem black;
+ border-radius: 50%;
+ font-size: 1.5rem;
+ aspect-ratio: 1; 
+ }
+ .grid button:last-child {
+ background: mistyrose;
+ color: black;
+ font-weight: bold;
+ grid-column: span 2;
+ aspect-ratio: initial;
+ border-radius: 100px;
+ }
+</style>
+</body>
+</html> 
