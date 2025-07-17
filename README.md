@@ -12,7 +12,10 @@ This repository contains all the tasks I complete as part of the **Web Developme
 
 | Task No. | Project Title     | Description                             | Link to Code |
 |----------|-------------------|-----------------------------------------|--------------|
-| 1        | Landing Page      | A responsive landing page with HTML & CSS | [Task 1](https://github.com/aparnababu23/CODSOFT/tree/main/Task1_LandingPage) |
+| 1        | Landing Page      | A responsive landing page with HTML & CSS | [Task 1]
+(https://github.com/aparnababu23/CODSOFT/tree/main/Task1_LandingPage) |
+| 2 | Calculator App      | Simple calculator using HTML, CSS & JavaScript | [Task 2](https://github.com/YOUR_USERNAME/CODSOFT/tree/main/Task2_Calculator) |
+
 
 _(More tasks will be added as completed.)_
 
