@@ -13,9 +13,9 @@ Welcome to my repository for the **Web Development Virtual Internship** at **Cod
 
 | Task No. | Project Title        | Description                                              | Link to Code |
 |----------|----------------------|----------------------------------------------------------|--------------|
-| 1        | Landing Page         | A responsive and animated landing page using HTML & CSS | [Task 1](https://github.com/YOUR_USERNAME/CODSOFT/tree/main/Task1_LandingPage) |
-| 2        | Calculator App       | Simple calculator using HTML, CSS, and JavaScript       | [Task 2](https://github.com/YOUR_USERNAME/CODSOFT/tree/main/Task2_Calculator) |
-| 3        | Portfolio Website    | Personal profile site with icons, resume, and projects  | [Task 3](https://github.com/YOUR_USERNAME/CODSOFT/tree/main/Task3_PortfolioWebsite) |
+| 1        | Landing Page         | A responsive and animated landing page using HTML & CSS | [Task 1](https://github.com/Aparnababu23/CODSOFT/tree/main/Task1_LandingPage) |
+| 2        | Calculator App       | Simple calculator using HTML, CSS, and JavaScript       | [Task 2](https://github.com/Aparnababu23/CODSOFT/tree/main/Task2_Calculator) |
+| 3        | Portfolio Website    | Personal profile site with icons, resume, and projects  | [Task 3](https://github.com/Aparnababu23/CODSOFT/tree/main/Task3_PortfolioWebsite) |
 
 _(More tasks will be added as they are completed.)_
 
