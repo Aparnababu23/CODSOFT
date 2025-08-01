@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+html,
+body {
+    min-height: 100dvh;
+    background-color: #000;
+    color: aliceblue;
+    font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif;
+    font-weight: 300;
+}
+h1,
+h2,
+h3 {
+    font-weight: 300;
+}
+h1 {
+    font-size: 3rem;
+}
+header {
+    min-height: 60dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100dvh;
+    padding: 1rem;
+    gap: 3rem;
+    max-width: 60rem;
+    margin: 3rem auto;
+}
+.tagline {
+    color: #ddd;
+    margin: 1rem 0;
+}
+
+header img {
+    aspect-ratio: 1;
+    width: clamp(10rem, 40dvw, 30rem);
+    border-radius: 0.5rem;
+    object-fit: cover;
+    transform: rotate(-5deg);
+    transition: transform 0.4s ease;
+}
+header img:hover {
+    transform: rotate(0deg);
+}
+header a {
+    display: inline-block;
+    margin: 1rem 0;
+    color: #000;
+    background-color: moccasin;
+    padding: 1rem 1.75rem;
+    font-weight: 400;
+    border-radius: 5rem;
+    text-decoration: none;
+    transition: box-shadow 0.4s ease;
+}
+header a:hover {
+    box-shadow:
+        0.75rem 0.75rem 0 0.001rem #000,
+        0.75rem 0.75rem 0 0.1rem #ffe4b5;
+}
+h2 {
+    text-align: center;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    margin-bottom: 2rem;
+}
+section {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+#skills ul {
+    width: fit-content;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    gap: 1rem;
+    margin: 0 auto;
+}
+#skills ul li {
+    width: 5rem;
+    height: 5rem;
+    background-color: #111;
+    border-radius: 0.25rem;
+    font-size: 3rem;
+    padding: 1rem;
+}
+#skills ul li:after {
+    transition: all 0.4s ease;
+    opacity: 0;
+    content: attr(data-perc);
+    background: #111;
+    position: absolute;
+    inset: 0;
+    font-size: 1.25rem;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    line-height: 5rem;
+}
+#skills ul li:hover:after {
+    opacity: 1;
+}
+.la-html5 {
+    color: coral;
+}
+.la-css3 {
+    color: dodgerblue;
+}
+.la-js-square {
+    color: yellow;
+}
+.la-figma {
+    color: darkorange;
+}
+#projects {
+    padding: 1rem;
+}
+#projects > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-width: 70rem;
+    margin: 1rem auto;
+}
+.project {
+    background-color: #111;
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+}
+.project :not(img) {
+    padding: 0.5rem 2rem;
+}
+.project img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+footer {
+    text-align: center;
+}
+#contact p {
+    background-color: moccasin;
+    color: #000;
+    font-weight: 500;
+    font-size: 1.25rem;
+    text-align: center;
+    border-radius: 5rem;
+    padding: 1rem;
+    width: fit-content;
+    margin: 1rem auto;
+}
+#contact a {
+    color: inherit;
+    opacity: 0.8;
+    text-decoration: none;
+}
+@media (width <= 60rem) {
+    header {
+        min-height: 80dvh;
+        flex-direction: column;
+        margin-top: 8rem;
+    }
+    header div {
+        text-align: center;
+        max-width: 90dvw;
+        width: 50dvw;
+    }
+    #projects > div {
+        grid-template-columns: 1fr;
+    }
+}
