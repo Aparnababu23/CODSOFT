@@ -5,7 +5,7 @@ Welcome to my repository for the **Web Development Virtual Internship** at **Cod
 🗓️ **Duration:** July 5 – August 5, 2025  
 👩‍💻 **Intern:** Aparna Babu  
 🏷️ **Internship Type:** Virtual | Web Development  
-📍 **GitHub Repository:** [CODSOFT](https://github.com/YOUR_USERNAME/CODSOFT)
+📍 **GitHub Repository:** [CODSOFT](https://github.com/Aparnababu23/CODSOFT)
 
 ---
 
